@@ -1,0 +1,15 @@
+D:\CSProject\Compiler-Interpreter\GrammarJudgment\bin\Debug\GrammarJudgment.exe.config
+D:\CSProject\Compiler-Interpreter\GrammarJudgment\bin\Debug\GrammarJudgment.exe
+D:\CSProject\Compiler-Interpreter\GrammarJudgment\bin\Debug\GrammarJudgment.pdb
+D:\CSProject\Compiler-Interpreter\GrammarJudgment\obj\Debug\GrammarJudgment.csprojAssemblyReference.cache
+D:\CSProject\Compiler-Interpreter\GrammarJudgment\obj\Debug\MainWindow.g.cs
+D:\CSProject\Compiler-Interpreter\GrammarJudgment\obj\Debug\App.g.cs
+D:\CSProject\Compiler-Interpreter\GrammarJudgment\obj\Debug\GrammarJudgment_MarkupCompile.cache
+D:\CSProject\Compiler-Interpreter\GrammarJudgment\obj\Debug\GrammarJudgment_MarkupCompile.lref
+D:\CSProject\Compiler-Interpreter\GrammarJudgment\obj\Debug\MainWindow.baml
+D:\CSProject\Compiler-Interpreter\GrammarJudgment\obj\Debug\GrammarJudgment.g.resources
+D:\CSProject\Compiler-Interpreter\GrammarJudgment\obj\Debug\GrammarJudgment.Properties.Resources.resources
+D:\CSProject\Compiler-Interpreter\GrammarJudgment\obj\Debug\GrammarJudgment.csproj.GenerateResource.cache
+D:\CSProject\Compiler-Interpreter\GrammarJudgment\obj\Debug\GrammarJudgment.csproj.CoreCompileInputs.cache
+D:\CSProject\Compiler-Interpreter\GrammarJudgment\obj\Debug\GrammarJudgment.exe
+D:\CSProject\Compiler-Interpreter\GrammarJudgment\obj\Debug\GrammarJudgment.pdb
