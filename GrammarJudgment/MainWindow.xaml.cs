@@ -28,6 +28,10 @@ namespace GrammarJudgment
         public MainWindow()
         {
             InitializeComponent();
+            txt_G.Text = "G[N]";
+            txt_VN.Text = "N,D";
+            lb_P.Items.Add("N::=ND|D");
+            lb_P.Items.Add("D::=0|1|2|3|4|5|6|7|8|9");
         }
 
         private void btn_judge_Click(object sender, RoutedEventArgs e)
@@ -135,6 +139,38 @@ namespace GrammarJudgment
                 }
             }
             return false;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            int count = lb_P.SelectedIndex;
+            if (count < 0)
+            {
+                return;
+            }
+            string str = lb_P.SelectedItem.ToString();
+            if (count > 0)
+            {
+                lb_P.Items[count] = lb_P.Items[count - 1];
+                lb_P.Items[count - 1] = str;
+                lb_P.SelectedIndex = count - 1;
+            }
+        }
+
+        private void btn_down_Click(object sender, RoutedEventArgs e)
+        {
+            int count = lb_P.SelectedIndex;
+            if (count < 0)
+            {
+                return;
+            }
+            string str = lb_P.SelectedItem.ToString();
+            if (count < lb_P.Items.Count - 1)
+            {
+                lb_P.Items[count] = lb_P.Items[count + 1];
+                lb_P.Items[count + 1] = str;
+                lb_P.SelectedIndex = count + 1;
+            }
         }
     }
     

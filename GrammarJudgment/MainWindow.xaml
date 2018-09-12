@@ -5,26 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GrammarJudgment"
         mc:Ignorable="d"
-        Title="MainWindow" Height="431.207" Width="843.852">
+        Title="MainWindow" Height="431.207" Width="813.838">
     <Grid>
         <Label Content="示例" HorizontalAlignment="Left" Margin="62,51,0,0" VerticalAlignment="Top"/>
         <ComboBox x:Name="cbx_example" HorizontalAlignment="Left" Margin="140,51,0,0" VerticalAlignment="Top" Width="120"/>
         <Label Content="非终结符" HorizontalAlignment="Left" Margin="62,147,0,0" VerticalAlignment="Top"/>
         <Label Content="文法" HorizontalAlignment="Left" Margin="62,104,0,0" VerticalAlignment="Top"/>
         <Label Content="p" HorizontalAlignment="Left" Margin="62,190,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txt_VN" HorizontalAlignment="Left" Height="23" Margin="140,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="243" Text="N,D"/>
-        <TextBox x:Name="txt_G" HorizontalAlignment="Left" Height="23" Margin="140,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="243" Text="G[N]"/>
+        <TextBox x:Name="txt_VN" HorizontalAlignment="Left" Height="23" Margin="140,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="243"/>
+        <TextBox x:Name="txt_G" HorizontalAlignment="Left" Height="23" Margin="140,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="243"/>
         <Button x:Name="btn_judge" Content="判断" HorizontalAlignment="Left" Margin="295,51,0,0" VerticalAlignment="Top" Width="88" Click="btn_judge_Click"/>
-        <ListBox x:Name="lb_P" HorizontalAlignment="Left" Height="171" Margin="140,190,0,0" VerticalAlignment="Top" Width="243">
-            <ListBoxItem Content="N::=ND|D"/>
-            <ListBoxItem Content="D::=0|1|2|3|4|5|6|7|8|9"/>
-        </ListBox>
+        <ListBox x:Name="lb_P" HorizontalAlignment="Left" Height="171" Margin="140,190,0,0" VerticalAlignment="Top" Width="243"/>
         <Button Content="添加" HorizontalAlignment="Left" Margin="401,193,0,0" VerticalAlignment="Top" Width="75"/>
         <Button Content="删除" HorizontalAlignment="Left" Margin="401,217,0,0" VerticalAlignment="Top" Width="75"/>
         <Button Content="编辑" HorizontalAlignment="Left" Margin="401,241,0,0" VerticalAlignment="Top" Width="75"/>
-        <TextBox x:Name="txt_Result" HorizontalAlignment="Left" Height="310" Margin="492,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="275"/>
-        <Button Content="上移" HorizontalAlignment="Left" Margin="401,265,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="下移" HorizontalAlignment="Left" Margin="401,289,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="txt_Result" HorizontalAlignment="Left" Height="310" Margin="496,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="243"/>
+        <Button x:Name="btn_up" Content="上移" HorizontalAlignment="Left" Margin="401,265,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button x:Name="btn_down" Content="下移" HorizontalAlignment="Left" Margin="401,289,0,0" VerticalAlignment="Top" Width="75" Click="btn_down_Click"/>
 
     </Grid>
 </Window>
