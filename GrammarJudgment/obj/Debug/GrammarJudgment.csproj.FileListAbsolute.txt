@@ -13,3 +13,5 @@ D:\CSProject\Compiler-Interpreter\GrammarJudgment\obj\Debug\GrammarJudgment.cspr
 D:\CSProject\Compiler-Interpreter\GrammarJudgment\obj\Debug\GrammarJudgment.csproj.CoreCompileInputs.cache
 D:\CSProject\Compiler-Interpreter\GrammarJudgment\obj\Debug\GrammarJudgment.exe
 D:\CSProject\Compiler-Interpreter\GrammarJudgment\obj\Debug\GrammarJudgment.pdb
+D:\CSProject\Compiler-Interpreter\GrammarJudgment\obj\Debug\PEditor.g.cs
+D:\CSProject\Compiler-Interpreter\GrammarJudgment\obj\Debug\PEditor.baml
