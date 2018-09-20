@@ -489,7 +489,7 @@ namespace GrammarJudgment
                     txt_VN.Text = "N,D";
                     lb_P.Items.Clear();
                     lb_P.Items.Add("N::=ND|D");
-                    lb_P.Items.Add("N0::=ND|D");
+                    lb_P.Items.Add("N0::=ND|D123");
                     lb_P.Items.Add("D::=0|1|2|3|4|5|6|7|8|9");
                     break;
                 case 2:
